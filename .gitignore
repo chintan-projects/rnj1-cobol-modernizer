@@ -2,9 +2,6 @@
 python/
 java/
 
-# Sample COBOL files (from CardDemo)
-samples/
-
 # Python
 __pycache__/
 *.py[cod]

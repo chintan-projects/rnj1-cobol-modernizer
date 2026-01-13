@@ -2,7 +2,20 @@
 
 ## Sovereign AI for Enterprise Legacy Modernization
 
-This demo toolkit showcases Essential AI's Rnj-1 model for COBOL code analysis, documentation, and modernization—running **100% locally** with no cloud dependencies.
+---
+
+## Executive Summary
+
+This demo toolkit demonstrates how security and privacy-conscious financial institutions can modernize their mainframe COBOL applications using Essential AI's **Rnj-1 model**—running entirely on-premises with zero cloud dependencies.
+
+Using sample COBOL programs from AWS's [CardDemo](https://github.com/aws-samples/aws-mainframe-modernization-carddemo) application (a realistic credit card management system), this toolkit showcases:
+
+- **Code Analysis**: Deep understanding of COBOL business logic, data structures, and program flow
+- **Documentation Generation**: Automated technical documentation for legacy code
+- **Language Conversion**: Migration to modern languages (Python, Java) while preserving business rules
+- **Test Generation**: Automated test case creation for validation
+
+For banks and enterprises with strict data sovereignty requirements, Rnj-1 enables AI-powered modernization without exposing sensitive source code to external APIs or cloud services.
 
 ---
 
@@ -91,12 +104,14 @@ python cobol_modernizer.py full samples/CBACT04C.cbl --target python
 
 ## 📁 Sample Files
 
+The `samples/` directory contains COBOL programs copied from AWS's [CardDemo](https://github.com/aws-samples/aws-mainframe-modernization-carddemo) repository—a comprehensive mainframe application that simulates a credit card management system designed for modernization testing.
+
 | File | Type | Description |
 |------|------|-------------|
 | `CBACT04C.cbl` | Batch | Credit card interest calculator |
 | `COACTVWC.cbl` | CICS | Online account inquiry transaction |
 
-These are based on AWS's [CardDemo](https://github.com/aws-samples/aws-mainframe-modernization-carddemo) application—a realistic credit card management system used for mainframe modernization testing.
+> **Attribution**: Sample COBOL files are from [aws-samples/aws-mainframe-modernization-carddemo](https://github.com/aws-samples/aws-mainframe-modernization-carddemo), licensed under Apache 2.0.
 
 ---
 
@@ -175,8 +190,12 @@ done
 ---
 
 
-This demo toolkit: Apache 2.0
-Rnj-1 Model: Apache 2.0  
-Sample COBOL (CardDemo): Apache 2.0
+## 📜 License
+
+| Component | License | Source |
+|-----------|---------|--------|
+| This demo toolkit | Apache 2.0 | — |
+| Rnj-1 Model | Apache 2.0 | [Essential AI](https://essential.ai) |
+| Sample COBOL files | Apache 2.0 | [AWS CardDemo](https://github.com/aws-samples/aws-mainframe-modernization-carddemo) |
 
 ---
