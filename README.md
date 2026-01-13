@@ -100,50 +100,8 @@ These are based on AWS's [CardDemo](https://github.com/aws-samples/aws-mainframe
 
 ---
 
-## 🎬 Demo Script for Bank CTOs
 
-### Opening (2 min)
-1. Show Ollama running locally: `ollama list`
-2. Highlight: "This 8B parameter model runs on a single GPU"
-3. Point out: "No API keys, no cloud connection required"
 
-### Analysis Demo (3 min)
-```bash
-python interactive_demo.py samples/CBACT04C.cbl
-/analyze
-```
-Highlight:
-- Identifies business rules (interest calculation logic)
-- Recognizes file dependencies
-- Provides complexity rating
-
-### Conversion Demo (5 min)
-```bash
-/python
-```
-Highlight:
-- Preserves business logic exactly
-- Uses modern Python idioms (dataclasses, type hints)
-- Production-ready code with error handling
-
-### Q&A Deep Dive (variable)
-Ask specific questions:
-```
-"What happens if the balance is negative?"
-"How is the monthly rate calculated?"
-"What error conditions does this program handle?"
-```
-
-### Closing (2 min)
-```bash
-/metrics
-```
-Show:
-- All processing done locally
-- Zero API costs
-- Typical latency for enterprise use
-
----
 
 ## 🔧 Configuration
 
@@ -216,26 +174,9 @@ done
 
 ---
 
-## 📞 Next Steps
-
-To discuss enterprise deployment of Rnj-1 for your mainframe modernization initiative:
-
-- **Email**: gtm@essential.ai
-- **Website**: https://essential.ai
-
-### Typical Engagement Model
-1. **Pilot**: 2-week proof of concept on your codebase
-2. **Assessment**: Analysis of full COBOL inventory
-3. **Production**: Custom fine-tuning on your domain
-
----
-
-## 📜 License
 
 This demo toolkit: Apache 2.0
 Rnj-1 Model: Apache 2.0  
 Sample COBOL (CardDemo): Apache 2.0
 
 ---
-
-*Built with ❤️ by Essential AI — Democratizing AI Intelligence*
